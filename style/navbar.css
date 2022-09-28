@@ -57,6 +57,8 @@ body{
     box-shadow: 0px 0.5rem 1rem 0px rgb(0 0 0 / 24%);
     border-radius:1rem;
     width:25rem;
+    position: relative;
+    z-index: 1000;
 }
 #nav_left_dropdown>ul>li{
     list-style: none;

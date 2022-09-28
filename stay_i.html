@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/stay_i.css">
+    <link rel="stylesheet" href="./style/class.css">
+</head>
+<body>
+    <div id="topSec_i">
+        <div id="input_sec">
+            <input type="text" placeholder="Leaving from">
+            <input type="text" placeholder="Going to">
+            <input type="text" placeholder="Travelers">
+            <select name="" id="prefer_Class">
+                <option value="economy">Economy</option>
+                <option value="b_economy">Business Economy</option>
+                <option value="business">Business</option>
+                <option value="firstClass">First Class</option>
+            </select>
+            <input type="date" placeholder="Departing">
+            <input type="date" placeholder="Returning">
+        </div>
+        <div>
+            <input type="checkbox" name="directFlight" id="d_flight">
+            <label for="directFlight">Direct flights only</label>
+        </div>
+        <div>
+            <input type="checkbox" name="accTrips" id="accTrips">
+            <label for="accTrips">I only need accommodations for part of my trip</label>
+        </div>
+        <button>Search</button>
+    </div>
+    <div id="midSec_i">
+        <div id="navTrack">
+            <div>Choose your stay</div>
+            <div> > </div>
+            <div>Choose departing flight</div>
+            <div> > </div>
+            <div>Choose returning flight</div>
+            <div> > </div>
+            <div>Review your trip</div>
+        </div>
+        <div id="side_main">
+            <div id="sidebar">
+                <div id="map">
+                    <img class="width100" src="https://www.firstpost.com/wp-content/uploads/2015/01/lovemap.jpg" alt="">
+                    <p>View in a map</p>
+                </div>
+                <div>
+                    <h3>Search by property name</h3>
+                    <input type="text" placeholder="e.g. Best Western">
+                </div>
+                <h3>Filter By</h3>
+                <div id="nhood">
+                    <h4>Neighborhood</h4>
+                    <div>
+                        <input type="radio" id="mav" name="nhood" value="mav"
+                               checked>
+                        <label for="mav">Mumbai(and vicinity)</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="dadar" name="nhood" value="dadar"
+                               checked>
+                        <label for="dadar">Dadar</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="b_West" name="nhood" value="b_West"
+                               checked>
+                        <label for="b_West">Bandra West</label>
+                      </div>
+                </div>
+                <div id="p_location">
+                    <h4>Popular Location</h4>
+                    <div>
+                        <input type="radio" id="juhu" name="drone" value="juhu"
+                               checked>
+                        <label for="juhu">Juhu Beach</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="GOI" name="drone" value="GOI"
+                               checked>
+                        <label for="GOI">Gateway of India</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="USCO" name="drone" value="USCO"
+                               checked>
+                        <label for="USCO">U.S. Consulate Office</label>
+                      </div>
+                </div>
+                <div id="p_cancel">
+                    <h3>Property cancellation options</h3>
+                    <div>
+                        <input type="checkbox" id="refund" name="refund" checked>
+                        <label for="refund">Fully refundable property</label>
+                      </div>
+                </div>
+                <div id="p_filters">
+                    <h3>Popular Filters</h3>
+                    <div>
+                        <input type="checkbox" id="breakfast" name="breakfast" checked>
+                        <label for="breakfast">Breakfast included</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="free_airport" name="free_airport" checked>
+                        <label for="free_airport">Free airport shuttle</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="inclusive" name="inclusive" checked>
+                        <label for="inclusive">All inclusive</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="juhu_beach" name="juhu_beach" checked>
+                        <label for="juhu_beach">Juhu Beach</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="hotTub" name="hotTub" checked>
+                        <label for="hotTub">Hot tub</label>
+                      </div>
+                </div>
+                <div id="star_rating">
+                    <h3>Star Rating</h3>
+                    <div>
+                        <div>1*</div>
+                        <div>2*</div>
+                        <div>3*</div>
+                        <div>4*</div>
+                        <div>5*</div>
+                    </div>
+                </div>
+                <div id="guest_rating">
+                    <h4>Guest Rating</h4>
+                    <div>
+                        <input type="radio" id="any" name="drone" value="any"
+                               checked>
+                        <label for="any">Any</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="wonderful" name="drone" value="wonderful"
+                               checked>
+                        <label for="wonderful">Wonderful 4.5+</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="v_good" name="drone" value="v_good"
+                               checked>
+                        <label for="v_good">Very Good 4+</label>
+                      </div>
+                      <div>
+                        <input type="radio" id="good" name="drone" value="good"
+                               checked>
+                        <label for="good">Good 3.5+</label>
+                      </div>
+                </div>
+                <div id="meal_plan">
+                    <h3>Meal Plans available</h3>
+                    <div>
+                        <input type="checkbox" id="breakfast" name="breakfast" checked>
+                        <label for="breakfast">Breakfast included</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="free_airport" name="free_airport" checked>
+                        <label for="free_airport">Lunch included</label>
+                      </div>
+                      <div>
+                        <input type="checkbox" id="inclusive" name="inclusive" checked>
+                        <label for="inclusive">Dinner included</label>
+                      </div>
+                </div>
+            </div>
+            <div id="main">
+                <div id="main_1">
+                    <div>
+                        <p>Trip prices include roundtrip flight + stay, taxes, and fees.</p>
+                        <p>1,433 properties</p>
+                        <h4>See how we pick our recommended properties</h4>
+                    </div>
+                    <div>
+                        <select name="" id="sortBy">
+                            <option value="recommend">Recommended</option>
+                            <option value="price">Price</option>
+                            <option value="distance">Distance from downtown</option>
+                            <option value="g_rating">Guest ratings + our picks</option>
+                            <option value="p_rating">Price + our picks</option>
+                            <option value="S_rating">Star rating</option>
+                            <option value="p_discount">Package Discount</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="main_2">
+                    <div>
+                        <img src="https://forever.travel-assets.com/flex/flexmanager/images/2020/05/07/illustration__free__cancellation__non_bex__sml.svg" alt="">
+                    </div>
+                    <div>
+                        <h4>Stay flexible with a fully refundable property</h4>
+                        <p>We recommend booking a fully refundable stay in case your plans change.</p>
+                        <p>Select from fully refundable properties</p>
+                    </div>
+                </div>
+                <div id="main_3">
+                    <div class="hotels">
+                        <div>
+                            <img src="https://images.trvl-media.com/hotels/2000000/1360000/1351900/1351876/1ac59945.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                        </div>
+                        <div>
+                            <h3>Taj Mahal Tower, Mumbai</h3>
+                            <p>Mumbai</p>
+                            <p>Pool</p>
+                            <div class="hotel_sec">
+                                <div>
+                                    <p>Refundable Propeerties</p>
+                                    <p>Earn $5.35 orbucks</p>
+                                    <p>4.8/5</p>
+                                </div>
+                                <div>
+                                    <h1>$263.89</h1>
+                                    <p>per Travelers</p>
+                                    <p>including flight + stay</p>
+                                    <p>$522.27 trip total</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotels">
+                        <div>
+                            <img src="https://images.trvl-media.com/hotels/2000000/1360000/1351900/1351876/1ac59945.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
+                        </div>
+                        <div>
+                            <h3>Taj Mahal Tower, Mumbai</h3>
+                            <p>Mumbai</p>
+                            <p>Pool</p>
+                            <div class="hotel_sec">
+                                <div>
+                                    <p>Refundable Propeerties</p>
+                                    <p>Earn $5.35 orbucks</p>
+                                    <p>4.8/5</p>
+                                </div>
+                                <div>
+                                    <h1>$263.89</h1>
+                                    <p>per Travelers</p>
+                                    <p>including flight + stay</p>
+                                    <p>$522.27 trip total</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="./Script/stay_i.js"></script>

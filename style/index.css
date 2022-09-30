@@ -16,10 +16,60 @@ body{
     display: flex;
     
 }
+#Cnt_data_div>div>div{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+}
+#Cnt_data_div>div>div>button
+{
+    background-color: rgb(243, 235, 235);
+    font-size:18px;
+    border:1px solid gray;
+}
+#Cnt_data_div>div>div>input{
+    /* background-color: green; */
+    border:1px solid gray;
+    padding:1rem;
+    font-size:18px;
+}
+#Checkbox_cont_div{
+    display: flex;
+    gap:2rem;
+}
+#Checkbox_cont_div>div{
+    border:2px solid red;
+    padding:1rem;
+    box-sizing: border-box;
+    margin-top:1rem;
+}
 #Cont_offers{
-    width:120rem;
+    /* width:120rem; */
     margin:auto;
     line-height: 1rem;
+}
+#Hr_cont_div{
+    margin:2rem 0rem;
+}
+#Checkbox_cont_div{
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: center;
+}
+#cont_div_div{
+    display: flex;
+    justify-content: center;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    
+}
+#cont_div_div>button{
+    background-color: rgb(178, 46, 68);
+    color:white;
+    /* padding:0.8rem; */
+    padding:1rem 3rem;
+    font-size: 21px;
+    border-radius: 5px;
 }
 #Cont_offers>div{
     width:100%;
@@ -32,7 +82,7 @@ body{
     /* border:2px solid green; */
     background: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=600&h=150&q=medium")no-repeat center center/cover;
     width:100%;
-    height:25rem;
+    height:35rem;
     position:relative;
     top:0px;
     left:0px;
@@ -47,11 +97,12 @@ body{
 #cont_via{
     /* border:2px solid green; */
     width:78rem;
-    height:10rem;
+    height:23rem;
     position:relative;
     top:5rem;
     background-color: white;
     padding:1rem;
+    font-size: 18px;
 }
 #cont_via_div_div{
     /* background-color: rgb(177, 170, 170); */
@@ -354,7 +405,15 @@ body{
     background-color: rgb(177, 170, 170);
     font-size:1.1rem;
 }
-
+#footer{
+    font-size:21px;
+}
+#footer_img{
+    height:7rem;
+    width:15rem;
+    /* border:2px solid red; */
+    margin-top:-1rem;
+}
 
 
 
@@ -369,7 +428,7 @@ body{
         /* border:2px solid green; */
         background: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=600&h=150&q=medium")no-repeat;
         width:100%;
-        height:25rem;
+        height:100%;
         position:relative;
         top:0px;
         left:0px;
@@ -377,6 +436,11 @@ body{
         display: flex;
         justify-content: center;
     }
+    #Cont_plans{
+        height:50rem;
+        /* border:2px solid */
+    }
+    
     #Travel_div{
         display:flex;
         flex-direction: column;
@@ -392,7 +456,7 @@ body{
     }
     #anventures_div>div>img{
         width:90%;
-        border:2px solid green;
+        /* border:2px solid green; */
     }
     #container{
         display: flex;
@@ -480,6 +544,9 @@ body{
         flex-direction: column;
         gap:1rem;
     }    
+    #Travelling_tips_main{
+        grid-template-columns: repeat(1, 1fr);
+    }
     .Traveling_tips_divs>div:nth-child(2){
         position: relative;
         bottom:11rem;
@@ -532,5 +599,17 @@ body{
     width:3rem;
     height:3rem;
     margin-top:0rem;
+}
+#footer{
+    font-size:14px;
+}
+#footer_img{
+    height:5rem;
+    width:10rem;
+    /* border:2px solid red; */
+    margin-top:-1rem;
+}
+#navbar_right>ul{
+    display: none;
 }
 }

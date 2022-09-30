@@ -1,0 +1,111 @@
+body {
+  margin: 0px;
+}
+#schedule {
+  display: grid;
+  margin-left: 75px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+#date_passenger {
+  display: flex;
+  margin-bottom: 0px;
+}
+#main_conatiner {
+  display: flex;
+  background-color: whitesmoke;
+  width: 100%;
+  padding-top: 30px;
+}
+#first_div {
+  width: 84%;
+  display: grid;
+}
+#side_flight {
+  display: flex;
+}
+#description {
+  display: flex;
+}
+#travel_details {
+  display: flex;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 57%;
+  margin-left: 75px;
+}
+#filter {
+  margin-left: 75px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.side_menu {
+  display: flex;
+  margin-bottom: 10px;
+  padding-left: 75px;
+  padding-right: 40px;
+}
+.left {
+  width: 80%;
+  color: grey;
+  font-size: 13px;
+}
+.right {
+  width: 20%;
+  font-size: 13px;
+  text-align: end;
+  color: grey;
+}
+.div_image {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.departure {
+  margin-bottom: 15px;
+  padding-left: 60px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 10px;
+  padding-left: 75px;
+}
+.departure_arrival {
+  font-size: 10px;
+  text-align: center;
+  width: 45%;
+  border-radius: 10px;
+  border: 0.5px solid black;
+  margin: auto;
+  background-color: white;
+  color: grey;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+#flight_details {
+  width: 65%;
+  padding-right: 55px;
+}
+#sort {
+  display: flex;
+}
+.airindia_logo {
+  width: 70%;
+}
+.flight_schedule {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px 15px 0px 15px;
+  margin-bottom: 25px;
+}
+#price {
+  text-align: end;
+}
+.description_tag {
+  color: grey;
+  font-size: 14px;
+}

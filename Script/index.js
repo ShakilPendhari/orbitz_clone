@@ -25,5 +25,6 @@ but.addEventListener('click',()=>{
     }
     else{
         alert("Please select all parameters")
+        
     }
 })

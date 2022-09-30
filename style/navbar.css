@@ -10,19 +10,28 @@ body{
 }
 #navbar{
     background-color: #00253c;
-    height:4.8rem;
+    /* height:4.8rem; */
+    height:6rem;
+   
     list-style: none;
     color:rgb(250, 243, 243);
-    /* margin:auto; */
+    
+    /* width:99rem; */
+    margin:auto;
 }
 #navbar>div{
     display: flex;
-    width:90%;
+    width:99rem;
+    /* width:90%; */
     /* border:2px solid rgb(21, 39, 200); */
     margin:auto;
     justify-content: space-between;
     padding:0px 1rem;
     box-sizing: border-box;
+    /* border:2px solid red; */
+    font-size:18px;
+    position: relative;
+    z-index: 100;
 }
 
 #nav_img_holder{
@@ -146,5 +155,11 @@ body{
 @media all and (min-width: 408px) and (max-width: 1100px){
     html{
         font-size:80%;
+    }
+    #navbar>div{
+        width:60rem;
+    }
+    #navbar>div{
+        font-size: 13px;
     }
 }

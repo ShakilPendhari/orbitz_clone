@@ -24,6 +24,6 @@ but.addEventListener('click',()=>{
         window.location.href = "deltomumbai.html"
     }
     else{
-        alert("Please select all parameters")
+        alert("Please select all parameters");
     }
 })

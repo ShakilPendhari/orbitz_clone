@@ -27,6 +27,10 @@ body{
     font-size:18px;
     border:1px solid gray;
 }
+/* #Cnt_data_div{
+    width:90rem;
+    border:2px solid red;
+} */
 #Cnt_data_div>div>div>input{
     /* background-color: green; */
     border:1px solid gray;
@@ -44,7 +48,7 @@ body{
     margin-top:1rem;
 }
 #Cont_offers{
-    /* width:120rem; */
+    width:80rem;
     margin:auto;
     line-height: 1rem;
 }
@@ -92,6 +96,8 @@ body{
 }
 #Cnt_data_div{
     border:2px solid;
+    width:70rem;
+    margin:auto;
 }
 
 #cont_via{
@@ -423,24 +429,56 @@ body{
 
 
 
-@media all and (min-width: 400px) and (max-width: 1100px) {
+@media all and (min-width: 300px) and (max-width: 1000px) {
+    html{
+        font-size: 60%;
+    }
     #Cont_plans_img{
-        /* border:2px solid green; */
-        background: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=600&h=150&q=medium")no-repeat;
-        width:100%;
-        height:100%;
-        position:relative;
-        top:0px;
-        left:0px;
-        opacity:2;
-        display: flex;
-        justify-content: center;
+        background: url("")no-repeat center center/cover;
+    width:100%;
+    height:35rem;
+    position:relative;
+    top:0px;
+    left:0px;
+    opacity:2;
+    display: flex;
+    justify-content: center;
+    }
+    span{
+        font-size: 70%;
+    }
+    input{
+        height:1rem;
+        width:10rem;
+        font-size: 1.2rem;
+    }
+    #Checkbox_cont_div>div{
+        border:2px solid white;
+        padding:0.5rem;
+        padding-left:0.5rem;
+        box-sizing: border-box;
+        margin-top:1rem;
+
+    }
+    input[type="checkbox"]{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    #Cnt_data_div{
+        border:2px solid;
+        width:70rem;
+        margin:auto;
     }
     #Cont_plans{
         height:50rem;
         /* border:2px solid */
     }
-    
+    #Cnt_data_div{
+        border:2px solid;
+        width:55rem;
+        margin:auto;
+    }
     #Travel_div{
         display:flex;
         flex-direction: column;

@@ -4,6 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:85rem;
+    /* border:2px solid red; */
+    margin:auto;
 }
 #footer_top>ul{
     display: flex;

@@ -22,7 +22,7 @@ body{
 }
 #navbar>div{
     display: flex;
-    width:85rem;
+    width:78rem;
     /* width:90%; */
     /* border:2px solid rgb(21, 39, 200); */
     margin:auto;
@@ -158,7 +158,7 @@ body{
         font-size:80%;
     }
     #navbar{
-        width:80rem;
+        /* width:80rem; */
         background-color: #00253c;
         /* height:4.8rem; */
         height:6rem;
@@ -170,10 +170,8 @@ body{
         margin:auto;
     }
     #navbar>div{
-        width:60rem;
-        /* justify-content: */
-    }
-    #navbar>div{
+        width:auto;
         font-size: 13px;
+        justify-content: center;
     }
 }

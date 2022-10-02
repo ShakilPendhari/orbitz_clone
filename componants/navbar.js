@@ -79,13 +79,13 @@ function navbar(){
               <li><a href=""> <span class="nav_right_ele"> Trips</span></a></li>
               <li><button id="nav_button">
                  <span class="nav_right_ele nav_rigt_but">Silver</span>
-                 <span class="nav_right_ele" id="Home_signIn_click">SignIn</span>
+                 <span class="nav_right_ele" id="Home_signIn_click">Signup</span>
               </button></li>
               <li> <div id="Home_signin">
                   <div>
                      <h1>Members can access discounts, points and special features</h1>
                      <button>
-                     <a href="signin.html">Sign in</a>
+                     <a href="signup.html">Sign up</a>
                         
                      </button>
                      <h3>Create a free account</h3>

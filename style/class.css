@@ -1,6 +1,16 @@
 .flex{
     display: flex;
+    gap: 20px;
 }
 .width100{
     width: 100%;
+}
+.fw{
+    font-weight: bold;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.noLine{
+    text-decoration: none;
 }

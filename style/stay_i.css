@@ -1,37 +1,92 @@
 
 body{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    background-color: whitesmoke;
+    background-color:whitesmoke;
 }
-#midSec_i{
-    width: 90%;
+#midSec_i,#topSec_i{
+    width: 80%;
     margin: auto;
+    margin-top: 50px;
+}
+#topSec_i{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px;
+    font-weight: bold;
+    align-items: center;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#input_sec{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#topSec_i input,select,button{
+    padding: 10px;
 }
 
 #navTrack{
     display: flex;
+    gap: 30px;
+    margin: 30px auto;
 }
 #navTrack>div{
-    border: 1px solid black;
     padding: 0px 10px;
 }
 
-#main_1,#main_2,#side_main,#sidebar,#main_3>div,.hotel_sec,.hotels{
+#main_1,#main_2,#side_main,#sidebar,#main_3>div,.hotel_sec,.hotels,#main_3{
     display: flex;
-    border: 1px solid black;
+}
+#main_1{
+    justify-content: space-around;
+}
+#side_main{
+    width: 95%;
+    gap: 30px;
 }
 #sidebar{
     flex-direction: column;
-    width: 30%;
+    width: 20%;
+    padding: 30px;
+    gap: 20px;
+}
+#sidebar>div>div{
+    margin: 10px;
+    font-size: 20px;
 }
 #main_3>div>div:nth-child(1){
     width: 30%;
+    padding: 20px;
 }
 #main_3>div img{
     width: 100%;
+}
+#main_3{
+    flex-direction: column;
+    gap: 30px;
+}
+.hotels:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.hotels{
+    background-color: white;
 }
 .hotel_sec{
     width:60%;
     justify-content: space-between;
 }
-
+ p{
+    font-weight: bold;
+ }
+#sortHotel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#star_rating>div>div{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 5px;
+}

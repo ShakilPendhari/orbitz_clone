@@ -1,6 +1,7 @@
 
 // import {navbar} from "/componants/navbar.js"
 
+<<<<<<< HEAD
 
 import {navbar} from "/componants/navbar.js"
 
@@ -11,6 +12,11 @@ import footer from "/componants/footer.js"
 // import {navbar} from "/dazzling-wing-7781/componants/navbar.js"
 
 // import footer from "/dazzling-wing-7781/componants/footer.js"
+=======
+import {navbar} from "/componants/navbar.js"
+
+import footer from "/componants/footer.js"
+>>>>>>> 1dd721bc3f56d9d8bc61de8f4f9b35325ac9d7ae
 
 window.onload = ()=>{
     console.log(navbar)

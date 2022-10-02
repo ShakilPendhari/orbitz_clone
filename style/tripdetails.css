@@ -1,0 +1,49 @@
+body {
+    background-color: whitesmoke;
+  }
+  
+  #description {
+    display: flex;
+  }
+  #travel_details {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 47%;
+    margin-left: 75px;
+  }
+  .description_tag {
+    color: grey;
+    font-size: 14px;
+  }
+  #container {
+    display: flex;
+  }
+  #left_conatiner {
+    width: 58%;
+    /* border: 1px solid black; */
+    padding-left: 75px;
+  }
+  #right_container {
+    width: 30%;
+    /* border: 1px solid red; */
+  }
+  #hotel_details {
+    padding-top: 8px;
+    padding-left: 8px;
+    font-size: 14px;
+    color: grey;
+  }
+  #hotel_details > p {
+    margin: 8px;
+  }
+  #change {
+    display: flex;
+    font-size: 14px;
+    color: teal;
+    padding-bottom: 8px;
+    padding-left: 8px;
+  }
+  

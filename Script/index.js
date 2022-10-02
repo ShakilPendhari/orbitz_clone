@@ -1,15 +1,15 @@
 
 // import {navbar} from "/componants/navbar.js"
 
-import {navbar} from "/componants/navbar.js"
+// import {navbar} from "/componants/navbar.js"
 
-import footer from "/componants/footer.js"
+// import footer from "/componants/footer.js"
 
 
 
-// import {navbar} from "/dazzling-wing-7781/componants/navbar.js"
+import {navbar} from "/dazzling-wing-7781/componants/navbar.js"
 
-// import footer from "/dazzling-wing-7781/componants/footer.js"
+import footer from "/dazzling-wing-7781/componants/footer.js"
 
 
 window.onload = ()=>{
@@ -42,6 +42,20 @@ signIn.onclick = ()=>{
         data = true;
     }
     }
+
+
+    
+    let suc = JSON.parse(localStorage.getItem("successful"))|| [];
+
+    if(suc!==[])
+    {
+        let int = document.getElementById("Home_signIn_click")
+        int.innerText = suc[0].first_name
+    }
+
+
+
+
 }
 
 
@@ -58,7 +72,7 @@ but.addEventListener('click',()=>{
     let gif = query.value;
     if((gif==="mumbai"||gif==="Mumbai"||gif==="MUMBAI"||gif==="Delhi"||gif==="delhi"||gif==="DELHI"))
     {
-        window.location.href = "deltomumbai.html"
+        window.location.href = "stay_i.html"
     }
     else{
         alert("Please select all parameters");

@@ -79,9 +79,30 @@ function navbar(){
               <li><a href=""> <span class="nav_right_ele"> Trips</span></a></li>
               <li><button id="nav_button">
                  <span class="nav_right_ele nav_rigt_but">Silver</span>
-                 <span class="nav_right_ele">sp</span>
+                 <span class="nav_right_ele" id="Home_signIn_click">SignIn</span>
               </button></li>
+              <li> <div id="Home_signin">
+                  <div>
+                     <h1>Members can access discounts, points and special features</h1>
+                     <button>
+                     <a href="signin.html">Sign in</a>
+                        
+                     </button>
+                     <h3>Create a free account</h3>
+                  </div>
+                  <div>
+                     <h4>List of favorites</h4>
+                     <h4>Loyalty program</h4>
+                     <hr>
+                     <h4>Feedback</h4>
+                  </div>
+                  <div id="Home_signout">
+                     <h3>signout</h3>
+                   </div>
+            </div></li>
             </ul>
+           
+
          </div>
    </div>`
 }

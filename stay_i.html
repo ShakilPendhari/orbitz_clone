@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Book Hotel</title>
     <link rel="stylesheet" href="./style/stay_i.css">
     <link rel="stylesheet" href="./style/class.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="topSec_i">
         <div id="input_sec">
-            <input type="text" placeholder="Leaving from">
-            <input type="text" placeholder="Going to">
-            <input type="text" placeholder="Travelers">
+            <label for="">Leaving From</label>
+            <input type="text" placeholder="Leaving from" value="Delhi">
+            <label for="">Going To</label>
+            <input type="text" placeholder="Going to" value="Mumbai">
+            <label for="">Travellers</label>
+            <input type="text" placeholder="Travelers" value="2 Passengers">
             <select name="" id="prefer_Class">
                 <option value="economy">Economy</option>
                 <option value="b_economy">Business Economy</option>
                 <option value="business">Business</option>
                 <option value="firstClass">First Class</option>
             </select>
+            <label for="">Departing</label>
             <input type="date" placeholder="Departing">
+            <label for="">Returning</label>
             <input type="date" placeholder="Returning">
         </div>
         <div>
@@ -35,7 +43,7 @@
     </div>
     <div id="midSec_i">
         <div id="navTrack">
-            <div>Choose your stay</div>
+            <div class="fw">Choose your stay</div>
             <div> > </div>
             <div>Choose departing flight</div>
             <div> > </div>
@@ -57,17 +65,17 @@
                 <div id="nhood">
                     <h4>Neighborhood</h4>
                     <div>
-                        <input type="radio" id="mav" name="nhood" value="mav"
+                        <input type="radio" id="mav" name="nhood" value="Mav"
                                checked>
                         <label for="mav">Mumbai(and vicinity)</label>
                       </div>
                       <div>
-                        <input type="radio" id="dadar" name="nhood" value="dadar"
+                        <input type="radio" id="dadar" name="nhood" value="Dadar"
                                checked>
                         <label for="dadar">Dadar</label>
                       </div>
                       <div>
-                        <input type="radio" id="b_West" name="nhood" value="b_West"
+                        <input type="radio" id="b_West" name="nhood" value="B_West"
                                checked>
                         <label for="b_West">Bandra West</label>
                       </div>
@@ -122,7 +130,7 @@
                 </div>
                 <div id="star_rating">
                     <h3>Star Rating</h3>
-                    <div>
+                    <div class="flex wrap">
                         <div>1*</div>
                         <div>2*</div>
                         <div>3*</div>
@@ -176,7 +184,7 @@
                         <p>1,433 properties</p>
                         <h4>See how we pick our recommended properties</h4>
                     </div>
-                    <div>
+                    <div id="sortHotel">
                         <select name="" id="sortBy">
                             <option value="recommend">Recommended</option>
                             <option value="price">Price</option>
@@ -199,7 +207,7 @@
                     </div>
                 </div>
                 <div id="main_3">
-                    <div class="hotels">
+                    <!-- <div class="hotels">
                         <div>
                             <img src="https://images.trvl-media.com/hotels/2000000/1360000/1351900/1351876/1ac59945.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="">
                         </div>
@@ -220,12 +228,13 @@
                                 </div>
                             
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
-
-<script src="./Script/stay_i.js"></script>
+<script src="./componants/data.js"></script>
+<script type="module" src="./Script/stay_i.js"></script>

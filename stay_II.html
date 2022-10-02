@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BooK Room</title>
     <link rel="stylesheet" href="./style/class.css">
     <link rel="stylesheet" href="./style/stay_ii.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+    <link rel="stylesheet" href="./style/footer.css">
 </head>
 <body>
+    <div id="navbar"></div>
     <div id="container">
         <div class="flex">
-            <div>Choose your stay</div>
+            <div class="fw">Choose your stay</div>
             <div> > </div>
             <div>Choose departing flight</div>
             <div> > </div>
@@ -37,22 +40,64 @@
             <div id="navTrack" class="flex">
                 <div class="flex">
                     <div>Overview</div>
-                    <div>Rooms</div>
+                    <div><a href="#rooms" class="noLine">Rooms</a></div>
                     <div>Location</div>
                     <div>Amenities</div>
                     <div>Policies</div>
                     <div>Reviews</div>
                 </div>
                 <div>
-                    <div>Reserve a Room</div>
+                    <a href="#rooms">
+                        <button class="book">Reserve a Room</button>
+                    </a>
                 </div>
             </div>
             <div id="detail">
-                <div></div>
-                <div></div>
+                <div>
+                    <h1>Taj Mahal Tower, Mumbai</h1>
+                    <p>5 Stars</p>
+                    <h2>4.8/5 Excellent</h2>
+                    <p>Top rated for cleanliness (4.8/5)</p>
+                    <a href="">See all 999 Reviews ></a>
+                    <h3>Popular Amenities</h3>
+                    <div class="popular">
+                        <div>Pool</div>
+                        <div>Free wifi</div>
+                        <div>Spa</div>
+                        <div>Air Conditioning</div>
+                        <div>Laundry</div>
+                        <div>Parking included</div>
+                    </div>
+                </div>
+                <div>
+                    <img src="https://www.firstpost.com/wp-content/uploads/2015/01/lovemap.jpg" alt="">
+                    <h3>Explore Area</h3>
+                    <div class="popular">
+                        <div>Gateway of India</div>
+                        <div>5 min walk</div>
+                        <div>Chhatrapati Shivaji Maharaj Museum</div>
+                        <div>9 min walk</div>
+                        <div>Bombay Castle</div>
+                        <div>23 min Drive</div>
+                    </div>
+                </div>
             </div>
+            <div>
+                <div>
+                    <h5>Trip Details</h5>
+                    <p>Chhatrapati Shivaji Maharaj Museum</p>
+                </div>
+                <div>
+                    <h2>$264.21</h2>
+                    <p>per traveler (includes 1 room)</p>
+                </div>
+            </div>
+            <h1>Choose Your Room</h1>
+            <div id="rooms"></div>
         </div>
     </div>
+    <div id="footer"></div>
 </body>
 </html>
-<script src="./Script/stay_ii.js"></script>
+<script src="./componants/data.js"></script>
+<script type="module" src="./Script/stay_ii.js"></script>

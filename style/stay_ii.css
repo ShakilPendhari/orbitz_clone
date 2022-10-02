@@ -61,8 +61,8 @@ img:hover{
 }
 .book{
     padding: 10px 30px;
-    background-color: red;
-    color: gold;
+    background-color: #c83259;
+    color: white;
     font-size: 20px;
 }
 .book:hover{
